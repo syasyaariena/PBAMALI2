@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FLORIST.CO</title>
+	<style>
+		.header img{
+			border-style: solid;
+			border-color: #8E806A;
+		}
+		.form{
+			padding-top: 30px;
+			border:solid;
+			margin-top: 20px;
+			padding-bottom: 30px;
+			border: inset;
+			border-color: #A97155;
+			background-color: #748DA6;
+		}
+		.footer{
+			border-style: solid;
+			margin-top: 30px;
+			text-align: center;
+			border: outset;
+			border-color: #7897AB;
+			background-color: #C1A3A3;
+		}
+		body{
+			background-image: url(syasya.jpg);
+			font-family: Trebuchet MS;
+
+		}
+	</style>
+	<script>
+		function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+	</script>
+</head>
+<body>
+	<center>
+		<div class="header">
+		<img src="HCI SYASYA.PNG">
+	</div>
+		<div class="form">
+			<form>
+				NAMA PENGGUNA : <input type="username"> <br> <br>
+				KATA LALUAN : <input type="password" value="" id="myInput"> <br> <br>
+				<input type="checkbox" onclick="myFunction()">Show Password <br> <br>
+				<input type="submit" name="" value="HANTAR">
+			</form>
+			
+		</div>
+		<div class="footer">
+			<marquee direction="left">
+				&copy; SISTEM PENDAFTARAN
+			</marquee>
+			
+		</div>
+	</center>
+
+</body>
+</html>
